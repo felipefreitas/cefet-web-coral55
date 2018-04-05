@@ -1,2 +1,39 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+#recipiente{
+	background-image: linear-gradient(#f6f1b2, #4599b2);
+	box-sizing: border-box;
+	border: 1px solid #d3d3d3;
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+}
+
+#conteudo{
+	box-sizing: border-box;
+}
+	
+#lateral{
+	width: 154px;
+	float: left;
+	box-sizing: border-box;
+}
+
+#cardapio{
+	width: 646px;
+	background-color: #ffffff20;
+	border: 1px solid #aac0ae;
+	margin-left: 154px;
+	box-sizing: border-box;
+}
+
+#ticket{
+	position: relative;
+}
+
+#ticket img{
+	position: fixed;
+	top: 295px;
+	left: -69px;
+}
