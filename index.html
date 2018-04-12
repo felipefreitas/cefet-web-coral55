@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -6,47 +6,92 @@
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-  <!-- substitua os elementos não semânticos por elementos semânticos -->
-  <div id="recipiente">
-    <div id="cabecalho">
-      <h1>Lanchonete do Coral 55</h1>
-      <h2>O melhor açaí marítimo da região</h2>
-    </div>
-    <div id="conteudo">
-      <div id="lateral">
-        <img src="images/siri.png" alt="Um siri feliz após comer na lanchonete">
+  <section id="recipiente">
+    <aside id="lateral">
+      <img id="siri" src="images/siri.png" alt="Um siri feliz após comer na lanchonete">
+      <div class="text-vertical">
         <h2>Cardápio</h2>
-        <img src="images/bolhas.png" alt="Bolhas de ar">
-        <img src="images/peixe.png" alt="Peixe feliz após beber um delicioso
-        coquetel de algas">
       </div>
-      <div id="cardapio">
-        <h3>Salgados</h3>
-        <!--
-          encontre uma forma para dispor os itens do cardápio com seus
-          nomes à esquerda e os preços à direita
-        -->
-        Pão de queijo de égua marinha $ 0,99
-        Hamburguer de microinsetos com salada de algas ou de musgo $ 2,49
-        <h3>Pratos</h3>
-        Açaí do manguezal 500ml $ 4,99
-        Açaí marítimo (assinatura) 500ml $ 6,99
-        Algas verdes fritas $ 7,49
-        Plâncton ao molho de maracujá $ 12,49
-        Plâncton do pacífico (importado) marinado $ 19,99
-        <h3>Bebes</h3>
-        Água temperada (cortesia)
-        Água doce importada (copo) $ 29,49
-        Coquetel de algas (alcoólico) $ 8,99
-        Coquetel de algas (kids) $ 5,49
-      </div>
-    </div>
-    <div id="rodape">
-      <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
-    </div>
-  </div>
-  <div id="ticket">
+      <img id="bolhas" src="images/bolhas.png" alt="Bolhas de ar">
+      <img id="peixe" src="images/peixe.png" alt="Peixe feliz após beber um delicioso
+      coquetel de algas">
+    </aside>
+    <section id="conteudo">
+      <header id="cabecalho">
+        <h1>Lanchonete do Coral 55</h1>
+        <h2>O melhor <span>açaí</span> marítimo da região</h2>
+      </header>
+      <main id="cardapio">
+        <table>
+          <tr>
+            <th>Salgados</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Pão de queijo de égua marinha</td>
+            <td>0,99</td>
+          </tr>
+          <tr>
+            <td>Hamburguer de microinsetos com salada de algas ou de musgo</td>
+            <td>2,49</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>Pratos</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Açaí do manguezal 500ml</td>
+            <td>4,99</td>
+          </tr>
+          <tr>
+            <td>Açaí marítimo (assinatura) 500ml</td>
+            <td>6,99</td>
+          </tr>
+          <tr>
+            <td>Algas verdes fritas</td>
+            <td>7,49</td>
+          </tr>
+          <tr>
+            <td>Plâncton ao molho de maracujá</td>
+            <td>12,49</td>
+          </tr>
+          <tr>
+            <td>Plâncton do pacífico (importado) marinado</td>
+            <td>19,99</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>Bebes</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Água temperada</td>
+            <td>(cortesia)</td>
+          </tr>
+          <tr>
+            <td>Água doce importada (copo)</td>
+            <td>29,49</td>
+          </tr>
+          <tr>
+            <td>Coquetel de algas (alcoólico)</td>
+            <td>8,99</td>
+          </tr>
+          <tr>
+            <td>Coquetel de algas (kids)</td>
+            <td>5,49</td>
+          </tr>
+        </table>
+      </main>
+      <footer id="rodape">
+        <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
+      </footer>
+    </section>
+  </section>
+  <aside id="ticket">
     <img src="images/ticket.png" alt="Cupom de desconto">
-  </div>
+  </aside>
 </body>
 </html>
